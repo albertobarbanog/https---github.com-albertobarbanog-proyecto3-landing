@@ -1,6 +1,6 @@
 # 🎸 Tienda de Guitarras - Landing Page 🎸
 
-## 🚀 Tecnologías que hacen vibrar este proyecto 🚀
+## 🚀 Tecnologías 🚀
 
 * **HTML5:** 
 * **CSS3:**
