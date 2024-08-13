@@ -1,6 +1,4 @@
-# Ignorar archivos y directorios generados por el sistema operativo
 Prototipo.drawio
 
 # Ignorar archivos de configuración local
 .env
-

@@ -1,9 +1,7 @@
 /* Importación de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-/* Custom styles to complement Bootstrap */
-
-/* General Styles */
+/* General */
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -15,10 +13,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700; /* Bold weight for headings */
+  font-weight: 700;
 }
 
-/* Base styles for elements that should always have rounded corners */
 .btn,
 .card,
 .form-control {
@@ -26,7 +23,7 @@ h6 {
   overflow: hidden;
 }
 
-/* Global hover effect with rounded corners */
+/* Global hover */
 a:hover,
 .btn:hover,
 .nav-link:hover,
@@ -63,7 +60,7 @@ a:hover,
   z-index: 1;
 }
 
-/* Products Section */
+/* Productosn */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -82,7 +79,7 @@ a:hover,
   object-fit: cover;
 }
 
-/* Lessons Section */
+/* Lecciones */
 #lessons .card {
   border: none;
   background-color: #f8f9fa;
@@ -92,7 +89,7 @@ a:hover,
   color: #007bff;
 }
 
-/* Contact Section */
+/* Contacto */
 #contact .form-control,
 #contact .btn {
   border-radius: 15px; /* Consistente con otros elementos */
@@ -106,14 +103,13 @@ a:hover,
 footer {
   text-align: center;
 }
-/* Responsive adjustments */
+/* Responsivo */
 @media (max-width: 768px) {
   .hero {
     height: 60vh;
   }
 }
 
-/* Additional responsive adjustments */
 @media (max-width: 576px) {
   .hero {
     height: 40vh;
